@@ -1,0 +1,37 @@
+{
+  "name": "vue-lenis",
+  "version": "1.0.0",
+  "description": "✋ Lenis smooth scroll directive for Vue templates",
+  "author": "Lutymane <luty@zeokku.com>",
+  "funding": "https://ko-fi.com/zeokku",
+  "keywords": [
+    "vue",
+    "lenis",
+    "smooth",
+    "scroll"
+  ],
+  "repository": "github:zeokku/vue-lenis",
+  "bugs": {
+    "url": "https://github.com/zeokku/vue-lenis/issues"
+  },
+  "homepage": "https://github.com/zeokku/vue-lenis#readme",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@studio-freight/lenis": "^1.0.16",
+    "typescript": "^5.1.3",
+    "vue": "3.0"
+  },
+  "peerDependencies": {
+    "@studio-freight/lenis": "^1.0.16",
+    "vue": "3.0"
+  }
+}
