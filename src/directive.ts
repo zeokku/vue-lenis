@@ -9,7 +9,7 @@ export type DirectiveValue = Partial<{
     ref: Ref<Lenis>,
 
     /**
-     * If you want to run lenis.raf() by yourself, set it to false
+     * If you want to run lenis.raf() by yourself, set it to `false`
      * @default true
      */
     registerRaf: boolean,
